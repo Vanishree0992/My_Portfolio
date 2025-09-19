@@ -1,81 +1,94 @@
 import ProjectCard from "../components/ProjectCard";
 
+// Import images
+import project4 from "../assets/project4.png";
+import project from "../assets/project.png";
+import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.png";
+import project9 from "../assets/project9.png";
+import project10 from "../assets/project10.png";
+import project11 from "../assets/project11.png";
+import project12 from "../assets/project12.png";
+import project13 from "../assets/project13.png";
+
 export default function Projects() {
   const projects = [
     {
       title: "Employee's Payslip Website",
       description: "A web-based solution to generate employee payslips efficiently.",
-      image: "src//assets/project4.png",
+      image: project4,
       live: "https://vanishree0992.github.io/Prototype/prototype%204/index.html",
       code: "https://github.com/Vanishree0992/Prototype/tree/main/prototype%204",
     },
     {
       title: "Vetri Supermarket Billing Layout",
       description: "A billing system prototype for supermarkets with clean UI.",
-      image: "src//assets/project.png",
+      image: project,
       live: "https://vanishree0992.github.io/Prototype/prototype%205/index.html",
-      code: "https://github.com/Vanishree0992/Prototype/tree/main/protot%20ype%205",
+      code: "https://github.com/Vanishree0992/Prototype/tree/main/prototype%205",
     },
     {
       title: "VTS Exam Portal",
       description: "An online examination portal with role-based logins.",
-      image: "src//assets/project5.png",
+      image: project5,
       live: "https://vanishree0992.github.io/Prototype/prototype%206/index.html",
       code: "https://github.com/Vanishree0992/Prototype/tree/main/prototype%206",
     },
     {
       title: "Wedding Card Website",
       description: "A digital wedding card generator with modern design.",
-      image: "src/assets/project6.png",
+      image: project6,
       live: "#",
       code: "https://github.com/Vanishree0992/wedding_cards_website",
     },
     {
       title: "Online Cooking Class",
       description: "A web app for hosting and attending online cooking classes.",
-      image: "src/assets/project7.png",
+      image: project7,
       live: "#",
       code: "https://github.com/Vanishree0992/online-cooking-class",
     },
     {
       title: "Baby Products Website",
       description: "An e-commerce prototype for baby products.",
-      image: "src//assets/project8.png",
+      image: project8,
       live: "https://baby-products.onrender.com",
       code: "https://github.com/Vanishree0992/Baby_products",
     },
     {
       title: "Bakery Website",
       description: "A responsive bakery website showcasing products.",
-      image: "src//assets/project9.png",
+      image: project9,
       live: "https://prototype-10-2.onrender.com",
       code: "https://github.com/Vanishree0992/prototype-10",
     },
     {
       title: "Meditation Website",
       description: "A relaxing UI layout for meditation practices.",
-      image: "src//assets/project10.png",
+      image: project10,
       live: "https://prototype-11.onrender.com",
       code: "https://github.com/Vanishree0992/Prototype-11",
     },
     {
       title: "Stationary Shop Website",
       description: "An online shop layout for stationery products.",
-      image: "src//assets/project11.png",
+      image: project11,
       live: "https://stationary-shop-1-5w6u.onrender.com/",
       code: "https://github.com/Vanishree0992/Stationary-Shop",
     },
     {
       title: "Trading Website Layout",
       description: "A stock trading prototype with modern layout.",
-      image: "src//assets/project12.png",
+      image: project12,
       live: "https://trading-project-3.onrender.com/",
       code: "https://github.com/Vanishree0992/Trading_project",
     },
     {
       title: "Second Hand Bike Website",
       description: "A platform for buying and selling second-hand bikes.",
-      image: "src//assets/project13.png",
+      image: project13,
       live: "https://bike-project.onrender.com/",
       code: "https://github.com/Vanishree0992/Bike_Project",
     },
